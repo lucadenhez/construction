@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="toolbox.png">
+        <title>Under Construction</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Under Construction">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="titleContainer">
+                <h1 id="title">This website is under construction  🛠</h1>
+                <p id="subtitle">For now. It should be up in a few weeks! See you then.</p>
+                <a id="link" href="https://github.com/lucadenhez">
+                    <button id="github">View my GitHub</button>
+                </a>
+            </div>
+        </div>
+        <canvas class="background"></canvas>
+        <script src="particles.min.js"></script>
+        <script>
+            window.onload = function() {
+                Particles.init({
+                    selector: '.background',
+                    color: "#FFFFFF"
+                });
+            };
+        </script>
+    </body>
+</html>
